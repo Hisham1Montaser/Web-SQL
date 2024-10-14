@@ -20,9 +20,9 @@ resource "azurerm_subnet" "IntegrationSubnet" {
   address_prefixes     = ["10.0.2.0/24"]
 
   delegation {
-    name= "WebAppDelegation"
+    name = "WebAppDelegation"
     service_delegation {
-      name= "Microsoft.Web/serverFarms"
+      name = "Microsoft.Web/serverFarms"
     }
   }
 }
