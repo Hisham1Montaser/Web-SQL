@@ -4,8 +4,6 @@
 
 # Ignore .terraform directory
 .terraform/
-**/.terraform/
-
 
 # Ignore other sensitive or large files
 secrets.json
